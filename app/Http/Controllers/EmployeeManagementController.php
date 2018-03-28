@@ -205,7 +205,7 @@ class EmployeeManagementController extends Controller
         $this->validate($request, [
             'lastname' => 'required|max:60',
             'firstname' => 'required|max:60',
-            'middlename' => 'required|max:60',
+            'middlename' => 'max:60',
             'address' => 'required|max:120',
             'country_id' => 'required',
             'zip' => 'required|max:10',

@@ -12,7 +12,7 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => 'Employee management',
+    'name' => 'DS Istanbul',
 
     /*
     |--------------------------------------------------------------------------
@@ -178,6 +178,7 @@ return [
         App\Providers\RouteServiceProvider::class,
         Maatwebsite\Excel\ExcelServiceProvider::class,
         Barryvdh\DomPDF\ServiceProvider::class,
+        Nwidart\LaravelForecast\LaravelForecastServiceProvider::class,
     ],
 
     /*
@@ -228,6 +229,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,
         'PDF' => Barryvdh\DomPDF\Facade::class,
+        'Forecast' => Nwidart\LaravelForecast\ForecastFacade::class,
     ],
 
 ];

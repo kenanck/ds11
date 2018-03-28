@@ -53,4 +53,6 @@
       <!-- /.sidebar-menu -->
     </section>
     <!-- /.sidebar -->
+    <div class="center" id="openweathermap-widget-17"></div>
+    <script>window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];  window.myWidgetParam.push({id: 17,cityid: '2871535',appid: '915e089eefc672d9940ceeda668da1dd',units: 'metric',containerid: 'openweathermap-widget-17',  });  (function() {var script = document.createElement('script');script.async = true;script.charset = "utf-8";script.src = "//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(script, s);  })();</script>
   </aside>
